@@ -1,0 +1,99 @@
+*{box-sizing: border-box;
+margin: 0;
+padding: 0;
+font-family: sans-serif ;
+
+}
+
+body{
+ background-color: #121212;
+ width: 100%;
+ min-height: 100vh;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+
+
+.header3{
+    background: linear-gradient( 120deg, rgb(11, 216, 199) 30%, rgb(255, 198, 40) 70%);
+    padding: 24px;
+    text-align: center;
+    color: black;
+
+}
+.container{
+    text-indent: 5px;
+    background-color: whitesmoke;
+    border-radius: 14px;
+    max-width: 700px;
+    width: 100%;    
+    box-shadow: 0 3px 5px rgba 0,0,0, 0.5;
+    overflow: hidden;
+
+}
+
+.form{
+    padding:  18px;
+}
+.form-content button{
+    margin-bottom: 8px;
+    padding-bottom: 18px;
+    position: relative;
+    background-color: goldenrod;
+
+}
+
+.form-content label{
+    display:inline-block;
+    margin-bottom: 4px;
+
+}
+.form-content input{
+    display: block;
+    width:  100%;
+    border-radius: 8px;
+    padding: 8px;
+    border: 2px solid gray;  
+    cursor: pointer;
+
+}
+.form-content a{
+   position:absolute;
+   bottom: -8px;
+   left : 0;
+
+}
+.Gerenciamento {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.container1{
+    text-align: center;
+    background-color: whitesmoke;
+    border-radius: 14px;
+    max-width: 600px;
+    width: 100%;    
+    box-shadow: 0 3px 5px rgba 0,0,0, 0.5;
+    overflow: hidden;
+
+}.header{
+    background: linear-gradient( 120deg, rgb(228, 227, 159) 30%, rgb(255, 198, 40) 70%);
+    padding: 24px;
+    text-align: center;
+    color: black;
+
+}
+.header1{
+    background: linear-gradient( 120deg, rgb(5, 85, 160) 30%, rgb(255, 198, 40) 70%);
+    padding: 24px;
+    text-align: center;
+    color: black;
+
+}
